@@ -7,6 +7,10 @@ a {
     color: #e5e7eb;
 }
 
+body {
+    margin: 0;
+}
+
 ul {
     list-style: none;
 
@@ -15,15 +19,13 @@ ul {
 }
 
 .header {
-    background-color: #1f2937;
-
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
     font-size: 24px;
-    color: #f9faf8;
+    
     font-weight: 700;
     padding: 16px;
 }
@@ -32,4 +34,9 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 4px;
+}
+
+.top-layer {
+    background-color: #1f2937;
+    color: #f9faf8;
 }
