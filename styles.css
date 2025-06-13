@@ -36,7 +36,27 @@ ul {
     padding: 4px;
 }
 
-.top-layer {
+.top-layer, .footer {
     background-color: #1f2937;
     color: #f9faf8;
+}
+
+.footer {
+    text-align: center;
+    padding: 24px;
+}
+
+.intro-section {
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.intro-subtext, .links {
+    font-size: 18px;
+    color: #e5e7eb;
 }
