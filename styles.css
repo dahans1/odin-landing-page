@@ -41,11 +41,6 @@ ul {
     color: #f9faf8;
 }
 
-.footer {
-    text-align: center;
-    padding: 24px;
-}
-
 .intro-section {
     display: flex;
     align-items: center;
@@ -60,3 +55,24 @@ ul {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+
+    background-color: #3882f6;
+    margin: 0 120px;
+}
+
+.sign-up-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 24px;
+}
+
+
