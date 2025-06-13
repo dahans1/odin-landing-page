@@ -56,6 +56,30 @@ ul {
     color: #e5e7eb;
 }
 
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+
+    max-width: 800px;
+}
+
+.quote-sign {
+    align-self: flex-end;
+    font-weight: 700;
+}
+
 .sign-up-section {
     display: flex;
     justify-content: center;
