@@ -44,6 +44,7 @@ ul {
 .intro-section {
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 
 .intro-text {
@@ -54,6 +55,16 @@ ul {
 .intro-subtext, .links {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.placeholder {
+    width: 512px;
+    height: 192px;
+    background-color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .body-section {
