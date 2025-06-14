@@ -90,6 +90,13 @@ ul {
     align-items: center;
 }
 
+.placeholder-2 {
+    border: 2px solid #3882f6;
+    border-radius: 6px;
+    width: 64px;
+    height: 64px;
+}
+
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
