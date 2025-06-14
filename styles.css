@@ -136,16 +136,27 @@ ul {
 
 .sign-up-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
+    color: #e5e7eb;
     background-color: #3882f6;
-    margin: 0 120px;
+    margin: 120px;
+    border-radius: 8px;
+    padding: 48px 120px;
 }
 
 .sign-up-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.sign-up-text-header {
+    font-weight: 700;
+}
+
+.sign-up-text-subtext {
+    color: #e5e7eb;
 }
 
 .sign-up-btn-2 {
