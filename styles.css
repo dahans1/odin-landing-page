@@ -11,6 +11,14 @@ body {
     margin: 0;
 }
 
+button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 24px;
+}
+
 ul {
     list-style: none;
 
@@ -138,6 +146,10 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.sign-up-btn-2 {
+    border: 2px solid #e5e7eb;
 }
 
 .footer {
